@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset style="width: 25%;">
+            <legend>Información General</legend>
+            <label>Nombre: </label>
+                <input type="text" name="nombre">
+            <br><br>
+            <label>Apellidos:</label>
+                <input type="text" name="apellidos">
+            <br><br>
+            <label>Distrito:</label>
+                <select name="distritos" id="">
+                    <option></option>
+                    <option>Lima</option>
+                    <option>San Isidro</option>
+                    <option>Surco</option>
+                    <option>Miraflores</option>
+                    <option>Rimac</option>
+                    <option>San Luis</option>
+                    <option>La Victoria</option>
+                    <option>Lince</option>
+                </select>
+
+            <br><br>
+            <label>Tipo de pago:</label><br>
+                <input type="radio" name="tipo de pago">Contado
+                <input type="radio" name="tipo de pago">Efectivo
+
+            <br><br>
+            <label>Intereses:</label><br>
+                <input type="checkbox">Juegos de mesa<br>
+                <input type="checkbox">Juguetes para niño<br>
+                <input type="checkbox">Juguetes para niña
+
+            <br><br>
+            <label for="">Comentario:</label><br>
+                <textarea name="msj" rows="6" cols="25"></textarea>
+            <br><br>
+            <button type="reset" name="borrar" value="borrar formulario">Borrar</button>
+            <button type="submit" name="enviar" value="enviar formulario">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
